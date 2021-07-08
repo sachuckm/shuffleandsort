@@ -1,0 +1,84 @@
+#container, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.header-text {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background-color: grey;
+}
+
+#webView, #mobileView {
+  width: 100%;
+  height: 95%;
+}
+#webView {
+  display: flex;
+}
+
+#mobileView {
+  margin:0 20px;
+}
+
+.mobile-view-number-pad {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.web-view-number-pad {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-buttons {
+  flex-grow: 2;
+  margin-top: 5%;
+  background-color: white;
+}
+
+.number {
+  flex: 1 0 25%;
+  text-align: center;
+  display: flex;
+  border: 1px solid #ccc;
+}
+.numberText {
+  font-size: 4rem;
+  color: white;
+  margin:auto;
+}
+.number-mobile {
+  text-align: center;
+  margin-bottom: 5px;
+  display: flex;
+  flex: 0 0 10%;
+}
+.line {
+  width: 20px;
+}
+.number-mobile-text {
+  font-size:3rem;
+  color: black;
+  text-align: center;
+   margin:auto;
+}
+
+.button {
+  width: 200px;
+  margin: 5px;
+  height: 70px;
+  font-size: 2rem;
+  background-color: #2b8ead;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid;
+}
